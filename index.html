@@ -170,6 +170,9 @@ tr.tot td{font-weight:700;border-bottom:none;padding-top:10px}
 
 /* Tableau des jours */
 .days td.pos{color:var(--good)} .days td.neg{color:var(--bad)}
+.days td,.days th{white-space:nowrap}
+.days td.jr{border-left:3px solid #3b82f6}.days td.jr.act{border-left-color:#ff7a1a}
+@media (max-width:520px){.days{font-size:12px}.days td,.days th{padding:7px 4px}.days .hm{display:none}}
 footer{margin-top:26px;color:var(--muted);font-size:12px;text-align:center}
 </style>
 </head>
@@ -450,11 +453,11 @@ drawChart(); addEventListener('resize', drawChart);
 
 /* Bilan */
 (function(){
-  let h = `<thead><tr><th>Jour</th><th>Type</th><th class="n">Mangé</th><th class="n">Protéines</th><th class="n">Sport</th><th class="n">Dépense</th><th class="n">Déficit</th></tr></thead><tbody>`;
+  let h = `<thead><tr><th>Jour</th><th class="hm">Type</th><th class="n">Mangé</th><th class="n">Prot.</th><th class="n">Sport</th><th class="n hm">Dépense</th><th class="n">Déficit</th></tr></thead><tbody>`;
   [...jours].reverse().forEach((j,i)=>{
     const partial = enCours && i===0;
-    h += `<tr><td>${dLong(j.date)}</td><td><span class="daytag ${j.type==='Actif'?'actif':'normal'}" style="margin:0">${j.type}</span></td>
-      <td class="n">${fr(j.mange)}</td><td class="n">${fr1(j.prot)} g</td><td class="n">${j.sport?fr(j.sport):'–'}</td><td class="n">${fr(j.depense)}</td>
+    h += `<tr><td class="jr ${j.type==='Actif'?'act':''}">${dLong(j.date)}</td><td class="hm"><span class="daytag ${j.type==='Actif'?'actif':'normal'}" style="margin:0">${j.type}</span></td>
+      <td class="n">${fr(j.mange)}</td><td class="n">${fr1(j.prot)} g</td><td class="n">${j.sport?fr(j.sport):'–'}</td><td class="n hm">${fr(j.depense)}</td>
       <td class="n ${partial?'':(j.deficit>=0?'pos':'neg')}">${partial?'en cours':(j.deficit>0?'+':'')+fr(j.deficit)}</td></tr>`;
   });
   document.getElementById('days').innerHTML = h+'</tbody>';
