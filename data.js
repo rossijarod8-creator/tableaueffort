@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "14/11/2026 16:38",
+ "maj": "14/11/2026 20:04",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -92,12 +92,12 @@ window.DATA = {
   {
    "date": "2026-11-14",
    "type": "Actif",
-   "mange": 1169,
-   "prot": 120,
+   "mange": 1960,
+   "prot": 192.4,
    "base": 2250,
    "sport": 634,
    "depense": 2884,
-   "deficit": 1715,
+   "deficit": 924,
    "cible": 2350
   }
  ],
@@ -910,6 +910,55 @@ window.DATA = {
    },
    {
     "repas": "Collation",
+    "aliment": "Skyr nature",
+    "qte": "100 g",
+    "kcal": 60,
+    "prot": 11
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Pâtes, crues",
+    "qte": "100 g",
+    "kcal": 350,
+    "prot": 12
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Dinde, crue",
+    "qte": "110 g",
+    "kcal": 125,
+    "prot": 24
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Haché 5 %, cru",
+    "qte": "90 g",
+    "kcal": 112,
+    "prot": 18.9
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Poivron",
+    "qte": "140 g",
+    "kcal": 39,
+    "prot": 1.3
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Champignons",
+    "qte": "70 g",
+    "kcal": 15,
+    "prot": 2.2
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Sauce : crème de soja 70 ml (70 kcal/100 ml), sauce soja 20 ml, fond de veau 10-15 g",
+    "qte": "",
+    "kcal": 90,
+    "prot": 3
+   },
+   {
+    "repas": "Soir",
     "aliment": "Skyr nature",
     "qte": "100 g",
     "kcal": 60,
