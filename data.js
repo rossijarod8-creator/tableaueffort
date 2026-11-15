@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "15/11/2026 20:46",
+ "maj": "15/11/2026 21:58",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -103,12 +103,12 @@ window.DATA = {
   {
    "date": "2026-11-15",
    "type": "Normal",
-   "mange": 1690,
-   "prot": 142.3,
+   "mange": 1996,
+   "prot": 181,
    "base": 2250,
    "sport": 0,
    "depense": 2250,
-   "deficit": 560,
+   "deficit": 254,
    "cible": 2100
   }
  ],
@@ -992,6 +992,13 @@ window.DATA = {
   ],
   "2026-11-15": [
    {
+    "repas": "Matin",
+    "aliment": "Œufs durs",
+    "qte": "2",
+    "kcal": 155,
+    "prot": 13
+   },
+   {
     "repas": "Midi",
     "aliment": "Pâtes, crues",
     "qte": "100 g",
@@ -1046,6 +1053,13 @@ window.DATA = {
     "qte": "≈ 30 g",
     "kcal": 80,
     "prot": 2.7
+   },
+   {
+    "repas": "Collation",
+    "aliment": "Shaker : whey Nutrimuscle 30 g + lait d'amande 250 ml",
+    "qte": "1",
+    "kcal": 151,
+    "prot": 25.7
    },
    {
     "repas": "Soir",
