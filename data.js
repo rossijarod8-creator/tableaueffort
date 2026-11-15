@@ -103,12 +103,12 @@ window.DATA = {
   {
    "date": "2026-11-15",
    "type": "Normal",
-   "mange": 1996,
-   "prot": 181,
+   "mange": 2060,
+   "prot": 189,
    "base": 2250,
    "sport": 0,
    "depense": 2250,
-   "deficit": 254,
+   "deficit": 190,
    "cible": 2100
   }
  ],
@@ -1116,6 +1116,20 @@ window.DATA = {
     "qte": "≈ 15 g",
     "kcal": 40,
     "prot": 1.4
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Skyr nature (à la place du fromage frais)",
+    "qte": "40 g",
+    "kcal": 24,
+    "prot": 4.4
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Parmesan (à la place du fromage frais)",
+    "qte": "10 g",
+    "kcal": 40,
+    "prot": 3.6
    }
   ]
  },
