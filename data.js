@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "14/11/2026 20:42",
+ "maj": "15/11/2026 14:33",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -99,6 +99,17 @@ window.DATA = {
    "depense": 2884,
    "deficit": 669,
    "cible": 2350
+  },
+  {
+   "date": "2026-11-15",
+   "type": "Normal",
+   "mange": 892,
+   "prot": 69.5,
+   "base": 2250,
+   "sport": 0,
+   "depense": 2250,
+   "deficit": 1358,
+   "cible": 2100
   }
  ],
  "repas": {
@@ -977,6 +988,64 @@ window.DATA = {
     "qte": "100 g",
     "kcal": 60,
     "prot": 11
+   }
+  ],
+  "2026-11-15": [
+   {
+    "repas": "Midi",
+    "aliment": "Pâtes, crues",
+    "qte": "100 g",
+    "kcal": 350,
+    "prot": 12
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Dinde, crue",
+    "qte": "110 g",
+    "kcal": 125,
+    "prot": 24
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Haché 5 %, cru",
+    "qte": "90 g",
+    "kcal": 112,
+    "prot": 18.9
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Poivron",
+    "qte": "140 g",
+    "kcal": 39,
+    "prot": 1.3
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Champignons",
+    "qte": "70 g",
+    "kcal": 15,
+    "prot": 2.2
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Sauce : crème de soja 70 ml (70 kcal/100 ml), sauce soja 20 ml, fond de veau 10-15 g",
+    "qte": "",
+    "kcal": 90,
+    "prot": 3
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Fromage de chèvre",
+    "qte": "30 g",
+    "kcal": 81,
+    "prot": 5.4
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Pain (petit bout)",
+    "qte": "≈ 30 g",
+    "kcal": 80,
+    "prot": 2.7
    }
   ]
  },
