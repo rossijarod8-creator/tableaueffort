@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "15/11/2026 14:33",
+ "maj": "15/11/2026 20:46",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -103,12 +103,12 @@ window.DATA = {
   {
    "date": "2026-11-15",
    "type": "Normal",
-   "mange": 892,
-   "prot": 69.5,
+   "mange": 1690,
+   "prot": 142.3,
    "base": 2250,
    "sport": 0,
    "depense": 2250,
-   "deficit": 1358,
+   "deficit": 560,
    "cible": 2100
   }
  ],
@@ -1046,6 +1046,62 @@ window.DATA = {
     "qte": "≈ 30 g",
     "kcal": 80,
     "prot": 2.7
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Gnocchi (étiquette : 161 kcal / 100 g)",
+    "qte": "185 g",
+    "kcal": 298,
+    "prot": 9.3
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Poulet, cru",
+    "qte": "220 g",
+    "kcal": 250,
+    "prot": 48
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Choux de Bruxelles (à la place du poivron)",
+    "qte": "105 g",
+    "kcal": 45,
+    "prot": 3.6
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Passata (étiquette : 25 kcal / 100 g)",
+    "qte": "200 g",
+    "kcal": 50,
+    "prot": 3.6
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Concentré de tomate (étiquette : 97 kcal / 100 g)",
+    "qte": "30 g",
+    "kcal": 29,
+    "prot": 1.2
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Ail, épices, basilic",
+    "qte": "",
+    "kcal": 5,
+    "prot": 0.3
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Fromage de chèvre (2 petits bouts)",
+    "qte": "≈ 30 g",
+    "kcal": 81,
+    "prot": 5.4
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Pain (tout petit bout)",
+    "qte": "≈ 15 g",
+    "kcal": 40,
+    "prot": 1.4
    }
   ]
  },
