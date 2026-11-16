@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "15/11/2026 21:58",
+ "maj": "16/11/2026 10:15",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -109,6 +109,17 @@ window.DATA = {
    "sport": 0,
    "depense": 2250,
    "deficit": 190,
+   "cible": 2100
+  },
+  {
+   "date": "2026-11-16",
+   "type": "Normal",
+   "mange": 78,
+   "prot": 6.5,
+   "base": 2250,
+   "sport": 0,
+   "depense": 2250,
+   "deficit": 2172,
    "cible": 2100
   }
  ],
@@ -1130,6 +1141,15 @@ window.DATA = {
     "qte": "10 g",
     "kcal": 40,
     "prot": 3.6
+   }
+  ],
+  "2026-11-16": [
+   {
+    "repas": "Matin",
+    "aliment": "Œuf dur",
+    "qte": "1",
+    "kcal": 78,
+    "prot": 6.5
    }
   ]
  },
