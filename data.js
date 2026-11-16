@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "16/11/2026 23:56",
+ "maj": "16/11/2026 23:57",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -114,12 +114,12 @@ window.DATA = {
   {
    "date": "2026-11-16",
    "type": "Actif",
-   "mange": 1534,
-   "prot": 145.6,
+   "mange": 1989,
+   "prot": 164.9,
    "base": 2250,
    "sport": 502,
    "depense": 2752,
-   "deficit": 1218,
+   "deficit": 763,
    "cible": 2350
   }
  ],
@@ -1185,6 +1185,27 @@ window.DATA = {
     "qte": "",
     "kcal": 90,
     "prot": 3
+   },
+   {
+    "repas": "Collation",
+    "aliment": "Fromage",
+    "qte": "30 g",
+    "kcal": 105,
+    "prot": 7
+   },
+   {
+    "repas": "Collation",
+    "aliment": "Pain (petit bout)",
+    "qte": "≈ 25 g",
+    "kcal": 70,
+    "prot": 2.3
+   },
+   {
+    "repas": "Collation",
+    "aliment": "Pâté lorrain (la moitié)",
+    "qte": "≈ 100 g",
+    "kcal": 280,
+    "prot": 10
    },
    {
     "repas": "Soir",
