@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "16/11/2026 23:55",
+ "maj": "16/11/2026 23:56",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -114,12 +114,12 @@ window.DATA = {
   {
    "date": "2026-11-16",
    "type": "Actif",
-   "mange": 1503,
-   "prot": 140.2,
+   "mange": 1534,
+   "prot": 145.6,
    "base": 2250,
    "sport": 502,
    "depense": 2752,
-   "deficit": 1249,
+   "deficit": 1218,
    "cible": 2350
   }
  ],
@@ -1196,16 +1196,16 @@ window.DATA = {
    {
     "repas": "Soir",
     "aliment": "Poulet, cru",
-    "qte": "220 g",
-    "kcal": 250,
-    "prot": 48
+    "qte": "200 g",
+    "kcal": 227,
+    "prot": 43.6
    },
    {
     "repas": "Soir",
-    "aliment": "Légume (poivron ou choux de Bruxelles)",
-    "qte": "≈ 105-160 g",
-    "kcal": 45,
-    "prot": 2.5
+    "aliment": "Poivron",
+    "qte": "140 g",
+    "kcal": 39,
+    "prot": 1.3
    },
    {
     "repas": "Soir",
@@ -1234,6 +1234,13 @@ window.DATA = {
     "qte": "40 g",
     "kcal": 24,
     "prot": 4.4
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Skyr nature (dessert)",
+    "qte": "100 g",
+    "kcal": 60,
+    "prot": 11
    }
   ]
  },
