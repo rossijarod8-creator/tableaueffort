@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "16/11/2026 10:21",
+ "maj": "16/11/2026 12:28",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -114,12 +114,12 @@ window.DATA = {
   {
    "date": "2026-11-16",
    "type": "Normal",
-   "mange": 78,
-   "prot": 6.5,
+   "mange": 812,
+   "prot": 70.2,
    "base": 2250,
    "sport": 0,
    "depense": 2250,
-   "deficit": 2172,
+   "deficit": 1438,
    "cible": 2100
   }
  ],
@@ -1150,6 +1150,48 @@ window.DATA = {
     "qte": "1",
     "kcal": 78,
     "prot": 6.5
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Pâtes, crues",
+    "qte": "100 g",
+    "kcal": 350,
+    "prot": 12
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Dinde, crue",
+    "qte": "110 g",
+    "kcal": 125,
+    "prot": 24
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Haché 5 %, cru",
+    "qte": "90 g",
+    "kcal": 112,
+    "prot": 18.9
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Champignons",
+    "qte": "100 g",
+    "kcal": 22,
+    "prot": 3.1
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Petits pois extra-fins Lidl, égouttés (étiquette : 70 kcal / 100 g)",
+    "qte": "50 g",
+    "kcal": 35,
+    "prot": 2.7
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Sauce : crème de soja 70 ml (70 kcal/100 ml), sauce soja 20 ml, fond de veau 10-15 g",
+    "qte": "",
+    "kcal": 90,
+    "prot": 3
    }
   ]
  },
