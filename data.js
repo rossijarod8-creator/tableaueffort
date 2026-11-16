@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "16/11/2026 12:29",
+ "maj": "16/11/2026 19:58",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -113,14 +113,14 @@ window.DATA = {
   },
   {
    "date": "2026-11-16",
-   "type": "Normal",
+   "type": "Actif",
    "mange": 802,
    "prot": 70.9,
    "base": 2250,
-   "sport": 0,
-   "depense": 2250,
-   "deficit": 1448,
-   "cible": 2100
+   "sport": 502,
+   "depense": 2752,
+   "deficit": 1950,
+   "cible": 2350
   }
  ],
  "repas": {
@@ -1241,6 +1241,22 @@ window.DATA = {
     "Meilleure puissance sur 45 min",
     "Record 20 min (90 j)",
     "Record 10 min (90 j)"
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "titre": "Bikes France Monday Workout (E)",
+   "type": "endurance",
+   "km": 30.44,
+   "duree": "0:57:12",
+   "watts": 153,
+   "vitesse": 31.9,
+   "denivele": 149,
+   "kcal": 502,
+   "zone": 2,
+   "note": "Séance de groupe, Seafoam Circuit (Watopia)",
+   "records": [
+    "Record personnel Seafoam Circuit"
    ]
   }
  ],
