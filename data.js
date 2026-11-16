@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "16/11/2026 19:58",
+ "maj": "16/11/2026 23:55",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -114,12 +114,12 @@ window.DATA = {
   {
    "date": "2026-11-16",
    "type": "Actif",
-   "mange": 802,
-   "prot": 70.9,
+   "mange": 1503,
+   "prot": 140.2,
    "base": 2250,
    "sport": 502,
    "depense": 2752,
-   "deficit": 1950,
+   "deficit": 1249,
    "cible": 2350
   }
  ],
@@ -1185,6 +1185,55 @@ window.DATA = {
     "qte": "",
     "kcal": 90,
     "prot": 3
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Gnocchi (étiquette : 161 kcal / 100 g)",
+    "qte": "185 g",
+    "kcal": 298,
+    "prot": 9.3
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Poulet, cru",
+    "qte": "220 g",
+    "kcal": 250,
+    "prot": 48
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Légume (poivron ou choux de Bruxelles)",
+    "qte": "≈ 105-160 g",
+    "kcal": 45,
+    "prot": 2.5
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Passata (étiquette : 25 kcal / 100 g)",
+    "qte": "200 g",
+    "kcal": 50,
+    "prot": 3.6
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Concentré de tomate (étiquette : 97 kcal / 100 g)",
+    "qte": "30 g",
+    "kcal": 29,
+    "prot": 1.2
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Ail, épices, basilic",
+    "qte": "",
+    "kcal": 5,
+    "prot": 0.3
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Skyr nature (à la place du fromage frais)",
+    "qte": "40 g",
+    "kcal": 24,
+    "prot": 4.4
    }
   ]
  },
