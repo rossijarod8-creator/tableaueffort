@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "16/11/2026 12:28",
+ "maj": "16/11/2026 12:29",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -114,12 +114,12 @@ window.DATA = {
   {
    "date": "2026-11-16",
    "type": "Normal",
-   "mange": 812,
-   "prot": 70.2,
+   "mange": 802,
+   "prot": 70.9,
    "base": 2250,
    "sport": 0,
    "depense": 2250,
-   "deficit": 1438,
+   "deficit": 1448,
    "cible": 2100
   }
  ],
@@ -1160,17 +1160,10 @@ window.DATA = {
    },
    {
     "repas": "Midi",
-    "aliment": "Dinde, crue",
-    "qte": "110 g",
-    "kcal": 125,
-    "prot": 24
-   },
-   {
-    "repas": "Midi",
-    "aliment": "Haché 5 %, cru",
-    "qte": "90 g",
-    "kcal": 112,
-    "prot": 18.9
+    "aliment": "Dinde, crue (à la place du haché)",
+    "qte": "200 g",
+    "kcal": 227,
+    "prot": 43.6
    },
    {
     "repas": "Midi",
