@@ -308,38 +308,45 @@ document.getElementById('chips').innerHTML = `
     <p class="note">${enCours?"Journée en cours : le déficit se calcule quand tous les repas sont notés.":"Déficit du jour : "+fr(j.deficit)+" kcal."}</p>`;
 })();
 
-/* Dernière activité */
+/* Dernière activité (avec historique) */
 (function(){
-  const list = [...D.seances].sort((a,b)=>a.date<b.date?-1:a.date>b.date?1:0);
-  const s = list[list.length-1];
+  const list = [...D.seances].sort((a,b)=>a.date<b.date?-1:a.date>b.date?1:0).reverse();
   const typeLbl = {course:'Course', seuil:'Séance au seuil', endurance:'Endurance', muscu:'Muscu'};
   const unit = (v,u)=>`${v}<small style="font-size:14px;font-style:normal"> ${u}</small>`;
-  let head;
-  if (s.classement) {
-    const [pos, tot] = s.classement.split('/').map(x=>x.trim());
-    head = `<div class="pos"><span class="num">${pos}</span><span>sur ${tot}</span></div>`;
-  } else {
-    head = `<div class="pos"><span class="num">${fr(s.kcal)}</span><span>kcal brûlées</span></div>`;
+  const panel = document.getElementById('racePanel');
+  function render(k){
+    const s = list[k];
+    let head;
+    if (s.classement) {
+      const [pos, tot] = s.classement.split('/').map(x=>x.trim());
+      head = `<div class="pos"><span class="num">${pos}</span><span>sur ${tot}</span></div>`;
+    } else {
+      head = `<div class="pos"><span class="num">${fr(s.kcal)}</span><span>kcal brûlées</span></div>`;
+    }
+    const st = [];
+    if (s.watts) {
+      st.push([unit(s.watts,'W'),'Puissance moy.']);
+      st.push([(s.watts/P.poids).toFixed(2).replace('.',','),'W/kg']);
+      st.push([Math.round(s.watts/P.ftp*100)+'%','de la FTP']);
+    }
+    if (s.km) st.push([unit(fr1(s.km),'km'),'Distance']);
+    if (s.duree) st.push([s.duree.replace(/^0:/,''),'Durée']);
+    if (s.vitesse) st.push([unit(fr1(s.vitesse),'km/h'),'Vitesse moy.']);
+    if (s.denivele) st.push([unit(fr(s.denivele),'m'),'Dénivelé +']);
+    if (s.classement || !st.length) st.push([fr(s.kcal),'kcal']);
+    const stats = st.slice(0,6).map(([n,l])=>`<div class="stat"><span class="num">${n}</span><span class="lbl">${l}</span></div>`).join('');
+    const sub = [typeLbl[s.type]||'', s.zone?('Zone '+s.zone):''].filter(Boolean).join(' · ');
+    const opts = list.map((x,n)=>`<option value="${n}"${n===k?' selected':''}>${n===0?'Dernière · ':''}${dLong(x.date)} · ${x.titre}</option>`).join('');
+    panel.innerHTML = `
+      <h2><span class="bar"></span>${k===0?'Dernière activité':'Activité'}<small>${dLong(s.date)}</small></h2>
+      <div style="margin-bottom:12px"><select id="actSel" style="width:100%">${opts}</select></div>
+      ${head}
+      <div class="title">${s.titre}${sub?`<div style="font-size:13px;color:var(--ink2);font-weight:600;margin-top:2px">${sub}</div>`:''}</div>
+      <div class="stats">${stats}</div>
+      <div class="badges">${(s.records||[]).map(r=>`<span class="badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4zM17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg>${r}</span>`).join('')}</div>`;
+    document.getElementById('actSel').addEventListener('change', e=>render(+e.target.value));
   }
-  const st = [];
-  if (s.watts) {
-    st.push([unit(s.watts,'W'),'Puissance moy.']);
-    st.push([(s.watts/P.poids).toFixed(2).replace('.',','),'W/kg']);
-    st.push([Math.round(s.watts/P.ftp*100)+'%','de la FTP']);
-  }
-  if (s.km) st.push([unit(fr1(s.km),'km'),'Distance']);
-  if (s.duree) st.push([s.duree.replace(/^0:/,''),'Durée']);
-  if (s.vitesse) st.push([unit(fr1(s.vitesse),'km/h'),'Vitesse moy.']);
-  if (s.denivele) st.push([unit(fr(s.denivele),'m'),'Dénivelé +']);
-  if (s.classement || !st.length) st.push([fr(s.kcal),'kcal']);
-  const stats = st.slice(0,6).map(([n,l])=>`<div class="stat"><span class="num">${n}</span><span class="lbl">${l}</span></div>`).join('');
-  const sub = [typeLbl[s.type]||'', s.zone?('Zone '+s.zone):''].filter(Boolean).join(' · ');
-  document.getElementById('racePanel').innerHTML = `
-    <h2><span class="bar"></span>Dernière activité<small>${dLong(s.date)}</small></h2>
-    ${head}
-    <div class="title">${s.titre}${sub?`<div style="font-size:13px;color:var(--ink2);font-weight:600;margin-top:2px">${sub}</div>`:''}</div>
-    <div class="stats">${stats}</div>
-    <div class="badges">${(s.records||[]).map(r=>`<span class="badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4zM17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg>${r}</span>`).join('')}</div>`;
+  render(0);
 })();
 
 /* KPI */
