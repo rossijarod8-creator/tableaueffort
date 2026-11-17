@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "17/11/2026 12:37",
+ "maj": "17/11/2026 12:38",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -1419,7 +1419,62 @@ window.DATA = {
     "Cuis les gnocchi 2 à 3 minutes dans l'eau bouillante jusqu'à ce qu'ils remontent, égoutte-les.",
     "Coupe le feu, ajoute le fromage frais en mélangeant, puis les gnocchi. Basilic à la fin."
    ],
-   "variante": "Avec 140 g de poulet seulement : ajoute 1 œuf cassé dans la sauce, 127 g de poivron et 35 g de champignons pour compenser (≈ 790 kcal / 66 g avec le skyr)."
+   "variante": "Avec 140 g de poulet seulement : ajoute 1 œuf cassé dans la sauce, 127 g de poivron et 35 g de champignons pour compenser (≈ 790 kcal / 66 g avec le skyr). Plus de poivron : 105 g de choux de Bruxelles font les mêmes calories (précuits 5 à 7 min). Plus de fromage frais : 40 g de skyr et 10 g de parmesan, ajoutés hors du feu (≈ 64 kcal). Viande : 200 g de poulet, de dinde ou de haché 5 % marchent aussi."
+  },
+  {
+   "id": "pates-soja",
+   "nom": "Pâtes dinde, sauce crème de soja",
+   "kcal": 721,
+   "prot": 62,
+   "tags": [
+    "Midi/soir",
+    "Se prépare à l'avance"
+   ],
+   "ingredients": [
+    {
+     "nom": "Pâtes, crues",
+     "qte": "100 g"
+    },
+    {
+     "nom": "Dinde, pesée crue",
+     "qte": "200 g",
+     "note": "ou 110 g de dinde + 90 g de haché 5 %"
+    },
+    {
+     "nom": "Poivron",
+     "qte": "140 g"
+    },
+    {
+     "nom": "Champignons",
+     "qte": "70 g"
+    },
+    {
+     "nom": "Crème de soja",
+     "qte": "70 ml",
+     "note": "étiquette : 70 kcal / 100 ml"
+    },
+    {
+     "nom": "Sauce soja salée",
+     "qte": "20 ml"
+    },
+    {
+     "nom": "Fond de veau",
+     "qte": "10 à 15 g"
+    },
+    {
+     "nom": "Skyr (à côté, en dessert)",
+     "qte": "100 g"
+    }
+   ],
+   "etapes": [
+    "Coupe la dinde en petits dés, le poivron en dés et les champignons en lamelles.",
+    "Cuis les pâtes dans l'eau bouillante, garde un peu d'eau de cuisson et égoutte.",
+    "Fais revenir la dinde (et le haché) à feu vif, avec très peu d'huile ou sans, jusqu'à ce qu'elle soit bien dorée.",
+    "Ajoute le poivron et les champignons, et cuis 5 minutes.",
+    "Délaye le fond de veau avec un peu d'eau de cuisson, ajoute-le avec la sauce soja, puis verse la crème de soja. Laisse mijoter 2 à 3 minutes.",
+    "Mélange avec les pâtes et ajuste avec de l'eau de cuisson si c'est trop épais."
+   ],
+   "variante": "Plus de poivron : 100 g de champignons et 50 g de petits pois égouttés (70 kcal / 100 g) à la place, ≈ 735 kcal / 63 g. Avec 100 g de skyr en dessert : environ +60 kcal et +11 g. Le fond de veau et la sauce soja sont salés : goûte avant de saler, et mets 5 à 10 g de fond de veau si c'est trop salé."
   },
   {
    "id": "maccheese",
