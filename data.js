@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "17/11/2026 12:38",
+ "maj": "17/11/2026 19:29",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -125,12 +125,12 @@ window.DATA = {
   {
    "date": "2026-11-17",
    "type": "Normal",
-   "mange": 78,
-   "prot": 6.5,
+   "mange": 810,
+   "prot": 81.2,
    "base": 2250,
    "sport": 0,
    "depense": 2250,
-   "deficit": 2172,
+   "deficit": 1440,
    "cible": 2100
   }
  ],
@@ -1289,6 +1289,62 @@ window.DATA = {
     "qte": "1",
     "kcal": 78,
     "prot": 6.5
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Gnocchi (étiquette : 161 kcal / 100 g)",
+    "qte": "185 g",
+    "kcal": 298,
+    "prot": 9.3
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Poulet, cru",
+    "qte": "200 g",
+    "kcal": 227,
+    "prot": 43.6
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Poivron",
+    "qte": "140 g",
+    "kcal": 39,
+    "prot": 1.3
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Passata (étiquette : 25 kcal / 100 g)",
+    "qte": "200 g",
+    "kcal": 50,
+    "prot": 3.6
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Concentré de tomate (étiquette : 97 kcal / 100 g)",
+    "qte": "30 g",
+    "kcal": 29,
+    "prot": 1.2
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Ail, épices, basilic",
+    "qte": "",
+    "kcal": 5,
+    "prot": 0.3
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Skyr nature (à la place du fromage frais)",
+    "qte": "40 g",
+    "kcal": 24,
+    "prot": 4.4
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Skyr nature (dessert)",
+    "qte": "100 g",
+    "kcal": 60,
+    "prot": 11
    }
   ]
  },
