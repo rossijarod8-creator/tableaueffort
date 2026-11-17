@@ -1,9 +1,9 @@
 window.DATA = {
- "maj": "16/11/2026 23:59",
+ "maj": "17/11/2026 08:02",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
-  "poids": 91,
+  "poids": 89.6,
   "taille": 175,
   "age": 28,
   "cibleNormal": 2100,
