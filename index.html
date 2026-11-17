@@ -97,7 +97,7 @@ header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-betw
 .daytag.normal{background:rgba(58,141,255,.15);color:#8fbcff;border:1px solid rgba(58,141,255,.45)}
 .note{color:var(--muted);font-size:12px;margin-top:10px}
 
-/* Dernière course */
+/* Dernière activité */
 .race{background:
   linear-gradient(135deg,rgba(255,106,26,.22),transparent 55%),
   linear-gradient(180deg,var(--panel2),var(--panel))}
@@ -308,23 +308,37 @@ document.getElementById('chips').innerHTML = `
     <p class="note">${enCours?"Journée en cours : le déficit se calcule quand tous les repas sont notés.":"Déficit du jour : "+fr(j.deficit)+" kcal."}</p>`;
 })();
 
-/* Dernière course */
+/* Dernière activité */
 (function(){
-  const courses = D.seances.filter(s=>s.classement);
-  const s = courses[courses.length-1] || D.seances[D.seances.length-1];
-  const [pos, tot] = (s.classement||'– / –').split('/').map(x=>x.trim());
+  const list = [...D.seances].sort((a,b)=>a.date<b.date?-1:a.date>b.date?1:0);
+  const s = list[list.length-1];
+  const typeLbl = {course:'Course', seuil:'Séance au seuil', endurance:'Endurance', muscu:'Muscu'};
+  const unit = (v,u)=>`${v}<small style="font-size:14px;font-style:normal"> ${u}</small>`;
+  let head;
+  if (s.classement) {
+    const [pos, tot] = s.classement.split('/').map(x=>x.trim());
+    head = `<div class="pos"><span class="num">${pos}</span><span>sur ${tot}</span></div>`;
+  } else {
+    head = `<div class="pos"><span class="num">${fr(s.kcal)}</span><span>kcal brûlées</span></div>`;
+  }
+  const st = [];
+  if (s.watts) {
+    st.push([unit(s.watts,'W'),'Puissance moy.']);
+    st.push([(s.watts/P.poids).toFixed(2).replace('.',','),'W/kg']);
+    st.push([Math.round(s.watts/P.ftp*100)+'%','de la FTP']);
+  }
+  if (s.km) st.push([unit(fr1(s.km),'km'),'Distance']);
+  if (s.duree) st.push([s.duree.replace(/^0:/,''),'Durée']);
+  if (s.vitesse) st.push([unit(fr1(s.vitesse),'km/h'),'Vitesse moy.']);
+  if (s.denivele) st.push([unit(fr(s.denivele),'m'),'Dénivelé +']);
+  if (s.classement || !st.length) st.push([fr(s.kcal),'kcal']);
+  const stats = st.slice(0,6).map(([n,l])=>`<div class="stat"><span class="num">${n}</span><span class="lbl">${l}</span></div>`).join('');
+  const sub = [typeLbl[s.type]||'', s.zone?('Zone '+s.zone):''].filter(Boolean).join(' · ');
   document.getElementById('racePanel').innerHTML = `
-    <h2><span class="bar"></span>Dernière course<small>${dLong(s.date)}</small></h2>
-    <div class="pos"><span class="num">${pos}</span><span>sur ${tot}</span></div>
-    <div class="title">${s.titre}</div>
-    <div class="stats">
-      <div class="stat"><span class="num">${s.watts??'–'}<small style="font-size:14px;font-style:normal"> W</small></span><span class="lbl">Puissance moy.</span></div>
-      <div class="stat"><span class="num">${s.watts?(s.watts/P.poids).toFixed(2).replace('.',','):'–'}</span><span class="lbl">W/kg</span></div>
-      <div class="stat"><span class="num">${s.watts?Math.round(s.watts/P.ftp*100)+'%':'–'}</span><span class="lbl">de la FTP</span></div>
-      <div class="stat"><span class="num">${s.km?fr1(s.km):'–'}<small style="font-size:14px;font-style:normal"> km</small></span><span class="lbl">Distance</span></div>
-      <div class="stat"><span class="num">${s.duree?s.duree.replace(/^0:/,''):'–'}</span><span class="lbl">Durée</span></div>
-      <div class="stat"><span class="num">${fr(s.kcal)}</span><span class="lbl">kcal</span></div>
-    </div>
+    <h2><span class="bar"></span>Dernière activité<small>${dLong(s.date)}</small></h2>
+    ${head}
+    <div class="title">${s.titre}${sub?`<div style="font-size:13px;color:var(--ink2);font-weight:600;margin-top:2px">${sub}</div>`:''}</div>
+    <div class="stats">${stats}</div>
     <div class="badges">${(s.records||[]).map(r=>`<span class="badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4zM17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg>${r}</span>`).join('')}</div>`;
 })();
 
