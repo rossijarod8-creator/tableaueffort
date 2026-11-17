@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "17/11/2026 19:30",
+ "maj": "17/11/2026 22:03",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -125,12 +125,12 @@ window.DATA = {
   {
    "date": "2026-11-17",
    "type": "Normal",
-   "mange": 891,
-   "prot": 86.6,
+   "mange": 1856,
+   "prot": 118.9,
    "base": 2250,
    "sport": 0,
    "depense": 2250,
-   "deficit": 1359,
+   "deficit": 394,
    "cible": 2100
   }
  ],
@@ -1352,6 +1352,20 @@ window.DATA = {
     "qte": "30 g",
     "kcal": 81,
     "prot": 5.4
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Nems maison (74 g pièce)",
+    "qte": "3",
+    "kcal": 510,
+    "prot": 18
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Riz cantonais maison",
+    "qte": "260 g",
+    "kcal": 455,
+    "prot": 14.3
    }
   ]
  },
