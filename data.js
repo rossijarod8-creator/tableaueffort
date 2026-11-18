@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "18/11/2026 20:08",
+ "maj": "18/11/2026 20:15",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -136,12 +136,12 @@ window.DATA = {
   {
    "date": "2026-11-18",
    "type": "Actif",
-   "mange": 1045,
-   "prot": 63,
+   "mange": 1810,
+   "prot": 135.8,
    "base": 2250,
    "sport": 549,
    "depense": 2799,
-   "deficit": 1754,
+   "deficit": 989,
    "cible": 2350
   }
  ],
@@ -1400,6 +1400,48 @@ window.DATA = {
     "qte": "1",
     "kcal": 925,
     "prot": 41
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Pâtes, crues",
+    "qte": "100 g",
+    "kcal": 350,
+    "prot": 12
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Poulet, cru",
+    "qte": "200 g",
+    "kcal": 227,
+    "prot": 43.6
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Poivrons",
+    "qte": "170 g",
+    "kcal": 48,
+    "prot": 1.6
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Sauce tomate (comptée comme de la passata : 25 kcal / 100 g)",
+    "qte": "200 g",
+    "kcal": 50,
+    "prot": 3.6
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Fond de veau",
+    "qte": "10-15 g",
+    "kcal": 30,
+    "prot": 1
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Skyr nature (dessert)",
+    "qte": "100 g",
+    "kcal": 60,
+    "prot": 11
    }
   ]
  },
