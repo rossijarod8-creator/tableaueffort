@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "18/11/2026 17:15",
+ "maj": "18/11/2026 20:08",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -135,14 +135,14 @@ window.DATA = {
   },
   {
    "date": "2026-11-18",
-   "type": "Normal",
+   "type": "Actif",
    "mange": 1045,
    "prot": 63,
    "base": 2250,
-   "sport": 0,
-   "depense": 2250,
-   "deficit": 1205,
-   "cible": 2100
+   "sport": 549,
+   "depense": 2799,
+   "deficit": 1754,
+   "cible": 2350
   }
  ],
  "repas": {
@@ -1472,6 +1472,22 @@ window.DATA = {
    "note": "Séance de groupe, Seafoam Circuit (Watopia)",
    "records": [
     "Record personnel Seafoam Circuit"
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "titre": "Bikes France Wednesday WorkOut (E)",
+   "type": "endurance",
+   "km": 25.73,
+   "duree": "0:59:06",
+   "watts": 162,
+   "vitesse": 26.1,
+   "denivele": 296,
+   "kcal": 549,
+   "zone": 2,
+   "note": "Séance de groupe, Makuri Islands",
+   "records": [
+    "3e meilleure puissance sur 20 min"
    ]
   }
  ],
