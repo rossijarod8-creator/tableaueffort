@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "17/11/2026 22:04",
+ "maj": "18/11/2026 17:15",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -131,6 +131,17 @@ window.DATA = {
    "sport": 0,
    "depense": 2250,
    "deficit": 334,
+   "cible": 2100
+  },
+  {
+   "date": "2026-11-18",
+   "type": "Normal",
+   "mange": 1045,
+   "prot": 63,
+   "base": 2250,
+   "sport": 0,
+   "depense": 2250,
+   "deficit": 1205,
    "cible": 2100
   }
  ],
@@ -1373,6 +1384,22 @@ window.DATA = {
     "qte": "100 g",
     "kcal": 60,
     "prot": 11
+   }
+  ],
+  "2026-11-18": [
+   {
+    "repas": "Matin",
+    "aliment": "Skyr nature",
+    "qte": "2 × 100 g",
+    "kcal": 120,
+    "prot": 22
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Pizza reine de pizzeria (entière)",
+    "qte": "1",
+    "kcal": 925,
+    "prot": 41
    }
   ]
  },
