@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "18/11/2026 20:15",
+ "maj": "18/11/2026 20:22",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -136,12 +136,12 @@ window.DATA = {
   {
    "date": "2026-11-18",
    "type": "Actif",
-   "mange": 1810,
-   "prot": 135.8,
+   "mange": 1966,
+   "prot": 140.9,
    "base": 2250,
    "sport": 549,
    "depense": 2799,
-   "deficit": 989,
+   "deficit": 833,
    "cible": 2350
   }
  ],
@@ -1400,6 +1400,20 @@ window.DATA = {
     "qte": "1",
     "kcal": 925,
     "prot": 41
+   },
+   {
+    "repas": "Collation",
+    "aliment": "Fromage de chèvre",
+    "qte": "17 g",
+    "kcal": 46,
+    "prot": 3.1
+   },
+   {
+    "repas": "Collation",
+    "aliment": "Snickers « petit plaisir » (petite barre)",
+    "qte": "≈ 22 g",
+    "kcal": 110,
+    "prot": 2
    },
    {
     "repas": "Soir",
