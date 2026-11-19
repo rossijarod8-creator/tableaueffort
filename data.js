@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "19/11/2026 21:18",
+ "maj": "19/11/2026 21:37",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -147,12 +147,12 @@ window.DATA = {
   {
    "date": "2026-11-19",
    "type": "Actif",
-   "mange": 1245,
-   "prot": 67,
+   "mange": 1986,
+   "prot": 135.7,
    "base": 2250,
    "sport": 361,
    "depense": 2611,
-   "deficit": 1366,
+   "deficit": 625,
    "cible": 2350
   }
  ],
@@ -1490,6 +1490,41 @@ window.DATA = {
     "qte": "5 parts",
     "kcal": 1125,
     "prot": 45
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Pâtes (crues)",
+    "qte": "100 g",
+    "kcal": 350,
+    "prot": 12
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Viande hachée 5 % (crue)",
+    "qte": "200 g",
+    "kcal": 250,
+    "prot": 42
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Poivrons",
+    "qte": "200 g",
+    "kcal": 56,
+    "prot": 1.9
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Sauce tomate",
+    "qte": "100 g",
+    "kcal": 25,
+    "prot": 1.8
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Skyr nature (dessert)",
+    "qte": "100 g",
+    "kcal": 60,
+    "prot": 11
    }
   ]
  },
