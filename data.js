@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "19/11/2026 13:35",
+ "maj": "19/11/2026 21:18",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -146,14 +146,14 @@ window.DATA = {
   },
   {
    "date": "2026-11-19",
-   "type": "Normal",
+   "type": "Actif",
    "mange": 1245,
    "prot": 67,
    "base": 2250,
-   "sport": 0,
-   "depense": 2250,
-   "deficit": 1005,
-   "cible": 2100
+   "sport": 361,
+   "depense": 2611,
+   "deficit": 1366,
+   "cible": 2350
   }
  ],
  "repas": {
@@ -1579,6 +1579,20 @@ window.DATA = {
    "records": [
     "3e meilleure puissance sur 20 min"
    ]
+  },
+  {
+   "date": "2026-11-19",
+   "titre": "Zwift - Nouvel entraînement",
+   "type": "endurance",
+   "km": 18.75,
+   "duree": "0:45:31",
+   "watts": 139,
+   "vitesse": 24.7,
+   "denivele": 156,
+   "kcal": 361,
+   "zone": 2,
+   "note": "Ocean Lava Cliffside Loop (Watopia), sortie zone 2",
+   "records": []
   }
  ],
  "recettes": [
