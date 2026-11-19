@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "19/11/2026 11:10",
+ "maj": "19/11/2026 13:22",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -147,12 +147,12 @@ window.DATA = {
   {
    "date": "2026-11-19",
    "type": "Normal",
-   "mange": 120,
-   "prot": 22,
+   "mange": 1120,
+   "prot": 62,
    "base": 2250,
    "sport": 0,
    "depense": 2250,
-   "deficit": 2130,
+   "deficit": 1130,
    "cible": 2100
   }
  ],
@@ -1483,6 +1483,13 @@ window.DATA = {
     "qte": "2 × 100 g",
     "kcal": 120,
     "prot": 22
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Pizza (4-5 parts, formation)",
+    "qte": "4-5 parts",
+    "kcal": 1000,
+    "prot": 40
    }
   ]
  },
