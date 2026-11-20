@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "20/11/2026 17:23",
+ "maj": "20/11/2026 21:11",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -158,12 +158,12 @@ window.DATA = {
   {
    "date": "2026-11-20",
    "type": "Normal",
-   "mange": 1102,
-   "prot": 132.9,
+   "mange": 2007,
+   "prot": 211.5,
    "base": 2250,
    "sport": 0,
    "depense": 2250,
-   "deficit": 1148,
+   "deficit": 243,
    "cible": 2100
   }
  ],
@@ -1612,6 +1612,48 @@ window.DATA = {
    {
     "repas": "Collation",
     "aliment": "Skyr nature",
+    "qte": "100 g",
+    "kcal": 60,
+    "prot": 11
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Pâtes (crues)",
+    "qte": "100 g",
+    "kcal": 350,
+    "prot": 12
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Viande hachée 5 % (crue)",
+    "qte": "200 g",
+    "kcal": 250,
+    "prot": 42
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Sauce tomate",
+    "qte": "150 g",
+    "kcal": 89,
+    "prot": 2.7
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Parmesan",
+    "qte": "25 g",
+    "kcal": 100,
+    "prot": 9
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Poivrons",
+    "qte": "200 g",
+    "kcal": 56,
+    "prot": 1.9
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Skyr nature (dessert)",
     "qte": "100 g",
     "kcal": 60,
     "prot": 11
