@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "20/11/2026 10:15",
+ "maj": "20/11/2026 17:02",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -158,12 +158,12 @@ window.DATA = {
   {
    "date": "2026-11-20",
    "type": "Normal",
-   "mange": 120,
-   "prot": 22,
+   "mange": 891,
+   "prot": 96.2,
    "base": 2250,
    "sport": 0,
    "depense": 2250,
-   "deficit": 2130,
+   "deficit": 1359,
    "cible": 2100
   }
  ],
@@ -1559,6 +1559,48 @@ window.DATA = {
     "qte": "2 × 100 g",
     "kcal": 120,
     "prot": 22
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Pâtes (crues)",
+    "qte": "100 g",
+    "kcal": 350,
+    "prot": 12
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Viande hachée 5 % (crue)",
+    "qte": "200 g",
+    "kcal": 250,
+    "prot": 42
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Poivrons",
+    "qte": "200 g",
+    "kcal": 56,
+    "prot": 1.9
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Sauce tomate",
+    "qte": "100 g",
+    "kcal": 25,
+    "prot": 1.8
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Skyr nature (dans la sauce)",
+    "qte": "50 g",
+    "kcal": 30,
+    "prot": 5.5
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Skyr nature (dessert)",
+    "qte": "100 g",
+    "kcal": 60,
+    "prot": 11
    }
   ]
  },
