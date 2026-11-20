@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "20/11/2026 17:02",
+ "maj": "20/11/2026 17:23",
  "profil": {
   "nom": "Jarod",
   "ftp": 220,
@@ -158,12 +158,12 @@ window.DATA = {
   {
    "date": "2026-11-20",
    "type": "Normal",
-   "mange": 891,
-   "prot": 96.2,
+   "mange": 1102,
+   "prot": 132.9,
    "base": 2250,
    "sport": 0,
    "depense": 2250,
-   "deficit": 1359,
+   "deficit": 1148,
    "cible": 2100
   }
  ],
@@ -1598,6 +1598,20 @@ window.DATA = {
    {
     "repas": "Midi",
     "aliment": "Skyr nature (dessert)",
+    "qte": "100 g",
+    "kcal": 60,
+    "prot": 11
+   },
+   {
+    "repas": "Collation",
+    "aliment": "Shaker whey Nutrimuscle + lait d'amande",
+    "qte": "30 g + 250 ml",
+    "kcal": 151,
+    "prot": 25.7
+   },
+   {
+    "repas": "Collation",
+    "aliment": "Skyr nature",
     "qte": "100 g",
     "kcal": 60,
     "prot": 11
