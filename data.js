@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "21/11/2026 17:47",
+ "maj": "21/11/2026 20:33",
  "profil": {
   "nom": "Jarod",
   "ftp": 232,
@@ -169,12 +169,12 @@ window.DATA = {
   {
    "date": "2026-11-21",
    "type": "Normal",
-   "mange": 1004,
-   "prot": 103.3,
+   "mange": 1879,
+   "prot": 121.8,
    "base": 2250,
    "sport": 0,
    "depense": 2250,
-   "deficit": 1246,
+   "deficit": 371,
    "cible": 2100
   }
  ],
@@ -1726,6 +1726,27 @@ window.DATA = {
     "qte": "2 × 100 g",
     "kcal": 120,
     "prot": 22
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Chips (apéro)",
+    "qte": "75 g",
+    "kcal": 401,
+    "prot": 4.7
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Baguette (apéro)",
+    "qte": "½ baguette (~125 g)",
+    "kcal": 344,
+    "prot": 11
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Fromage frais (apéro)",
+    "qte": "~50 g",
+    "kcal": 130,
+    "prot": 2.8
    }
   ]
  },
