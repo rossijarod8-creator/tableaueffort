@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "21/11/2026 20:33",
+ "maj": "21/11/2026 20:35",
  "profil": {
   "nom": "Jarod",
   "ftp": 232,
@@ -172,9 +172,9 @@ window.DATA = {
    "mange": 1879,
    "prot": 121.8,
    "base": 2250,
-   "sport": 0,
-   "depense": 2250,
-   "deficit": 371,
+   "sport": 174,
+   "depense": 2424,
+   "deficit": 545,
    "cible": 2100
   }
  ],
@@ -1850,6 +1850,22 @@ window.DATA = {
    "zone": 2,
    "note": "Ocean Lava Cliffside Loop (Watopia), sortie zone 2",
    "records": []
+  },
+  {
+   "date": "2026-11-21",
+   "titre": "Zwift – FTP Ramp Test",
+   "type": "test",
+   "km": 9.08,
+   "duree": "0:17:22",
+   "watts": 175,
+   "vitesse": 31.4,
+   "denivele": 40,
+   "kcal": 174,
+   "note": "Volcano Circuit CCW (Watopia) · nouvelle FTP : 232 W",
+   "records": [
+    "3e meilleure puissance sur 15 min",
+    "Record 5 min (90 j)"
+   ]
   }
  ],
  "recettes": [
