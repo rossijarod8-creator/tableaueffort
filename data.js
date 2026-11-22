@@ -180,12 +180,12 @@ window.DATA = {
   {
    "date": "2026-11-22",
    "type": "Normal",
-   "mange": 1625,
-   "prot": 141.5,
+   "mange": 1745,
+   "prot": 163.5,
    "base": 2250,
    "sport": 0,
    "depense": 2250,
-   "deficit": 625,
+   "deficit": 505,
    "cible": 2100
   }
  ],
@@ -1804,6 +1804,13 @@ window.DATA = {
     "prot": 1.5
    },
    {
+    "repas": "Midi",
+    "aliment": "Skyr nature (dessert)",
+    "qte": "100 g",
+    "kcal": 60,
+    "prot": 11
+   },
+   {
     "repas": "Collation",
     "aliment": "Œufs (16 h)",
     "qte": "3",
@@ -1844,6 +1851,13 @@ window.DATA = {
     "qte": "20 g",
     "kcal": 40,
     "prot": 1.5
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Skyr nature (dessert)",
+    "qte": "100 g",
+    "kcal": 60,
+    "prot": 11
    }
   ]
  },
