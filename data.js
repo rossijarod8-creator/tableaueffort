@@ -176,6 +176,17 @@ window.DATA = {
    "depense": 2424,
    "deficit": 45,
    "cible": 2100
+  },
+  {
+   "date": "2026-11-22",
+   "type": "Normal",
+   "mange": 930,
+   "prot": 80.7,
+   "base": 2250,
+   "sport": 0,
+   "depense": 2250,
+   "deficit": 1320,
+   "cible": 2100
   }
  ],
  "repas": {
@@ -1754,6 +1765,50 @@ window.DATA = {
     "qte": "1 repas",
     "kcal": 500,
     "prot": 25
+   }
+  ],
+  "2026-11-22": [
+   {
+    "repas": "Midi",
+    "aliment": "Pâtes (crues)",
+    "qte": "100 g",
+    "kcal": 350,
+    "prot": 12
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Poulet (cru)",
+    "qte": "200 g",
+    "kcal": 227,
+    "prot": 43.6
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Passata",
+    "qte": "150 g",
+    "kcal": 38,
+    "prot": 2.7
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Poivrons",
+    "qte": "150 g",
+    "kcal": 42,
+    "prot": 1.4
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Fond de veau",
+    "qte": "20 g",
+    "kcal": 40,
+    "prot": 1.5
+   },
+   {
+    "repas": "Collation",
+    "aliment": "Œufs (16 h)",
+    "qte": "3",
+    "kcal": 233,
+    "prot": 19.5
    }
   ]
  },
