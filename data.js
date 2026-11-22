@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "22/11/2026 22:03",
+ "maj": "22/11/2026 22:04",
  "profil": {
   "nom": "Jarod",
   "ftp": 232,
@@ -180,12 +180,12 @@ window.DATA = {
   {
    "date": "2026-11-22",
    "type": "Normal",
-   "mange": 930,
-   "prot": 80.7,
+   "mange": 1625,
+   "prot": 141.5,
    "base": 2250,
    "sport": 0,
    "depense": 2250,
-   "deficit": 1320,
+   "deficit": 625,
    "cible": 2100
   }
  ],
@@ -1809,6 +1809,41 @@ window.DATA = {
     "qte": "3",
     "kcal": 233,
     "prot": 19.5
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Pâtes (crues)",
+    "qte": "100 g",
+    "kcal": 350,
+    "prot": 12
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Poulet (cru)",
+    "qte": "200 g",
+    "kcal": 227,
+    "prot": 43.6
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Passata",
+    "qte": "110 g",
+    "kcal": 28,
+    "prot": 2
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Poivrons",
+    "qte": "180 g",
+    "kcal": 50,
+    "prot": 1.7
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Fond de veau",
+    "qte": "20 g",
+    "kcal": 40,
+    "prot": 1.5
    }
   ]
  },
