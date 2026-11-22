@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "22/11/2026 22:04",
+ "maj": "22/11/2026 22:30",
  "profil": {
   "nom": "Jarod",
   "ftp": 232,
@@ -180,12 +180,12 @@ window.DATA = {
   {
    "date": "2026-11-22",
    "type": "Normal",
-   "mange": 1745,
-   "prot": 163.5,
+   "mange": 1805,
+   "prot": 174.5,
    "base": 2250,
    "sport": 0,
    "depense": 2250,
-   "deficit": 505,
+   "deficit": 445,
    "cible": 2100
   }
  ],
@@ -1816,6 +1816,13 @@ window.DATA = {
     "qte": "3",
     "kcal": 233,
     "prot": 19.5
+   },
+   {
+    "repas": "Collation",
+    "aliment": "Skyr nature (22 h 30)",
+    "qte": "100 g",
+    "kcal": 60,
+    "prot": 11
    },
    {
     "repas": "Soir",
