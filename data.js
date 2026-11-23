@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "23/11/2026 17:09",
+ "maj": "23/11/2026 18:29",
  "profil": {
   "nom": "Jarod",
   "ftp": 232,
@@ -191,12 +191,12 @@ window.DATA = {
   {
    "date": "2026-11-23",
    "type": "Normal",
-   "mange": 758,
-   "prot": 37.5,
+   "mange": 1518,
+   "prot": 107.5,
    "base": 2250,
    "sport": 0,
    "depense": 2250,
-   "deficit": 1492,
+   "deficit": 732,
    "cible": 2100
   }
  ],
@@ -1899,6 +1899,41 @@ window.DATA = {
     "qte": "1",
     "kcal": 280,
     "prot": 9
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Gnocchi",
+    "qte": "185 g",
+    "kcal": 298,
+    "prot": 9.3
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Poulet (cru)",
+    "qte": "200 g",
+    "kcal": 227,
+    "prot": 43.6
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Passata",
+    "qte": "150 g",
+    "kcal": 38,
+    "prot": 2.7
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Poivrons rouges",
+    "qte": "150 g",
+    "kcal": 42,
+    "prot": 1.4
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Œufs",
+    "qte": "2",
+    "kcal": 155,
+    "prot": 13
    }
   ]
  },
