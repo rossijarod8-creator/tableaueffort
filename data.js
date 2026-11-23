@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "22/11/2026 22:30",
+ "maj": "23/11/2026 17:09",
  "profil": {
   "nom": "Jarod",
   "ftp": 232,
@@ -186,6 +186,17 @@ window.DATA = {
    "sport": 0,
    "depense": 2250,
    "deficit": 445,
+   "cible": 2100
+  },
+  {
+   "date": "2026-11-23",
+   "type": "Normal",
+   "mange": 758,
+   "prot": 37.5,
+   "base": 2250,
+   "sport": 0,
+   "depense": 2250,
+   "deficit": 1492,
    "cible": 2100
   }
  ],
@@ -1865,6 +1876,29 @@ window.DATA = {
     "qte": "100 g",
     "kcal": 60,
     "prot": 11
+   }
+  ],
+  "2026-11-23": [
+   {
+    "repas": "Midi",
+    "aliment": "Œuf",
+    "qte": "1",
+    "kcal": 78,
+    "prot": 6.5
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Sandwich poulet crudités (sans sauce)",
+    "qte": "1",
+    "kcal": 400,
+    "prot": 22
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Tartelette saumon poireaux",
+    "qte": "1",
+    "kcal": 280,
+    "prot": 9
    }
   ]
  },
