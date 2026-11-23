@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "23/11/2026 18:30",
+ "maj": "23/11/2026 18:36",
  "profil": {
   "nom": "Jarod",
   "ftp": 232,
@@ -191,12 +191,12 @@ window.DATA = {
   {
    "date": "2026-11-23",
    "type": "Normal",
-   "mange": 1596,
-   "prot": 114,
+   "mange": 1695,
+   "prot": 115.5,
    "base": 2250,
    "sport": 0,
    "depense": 2250,
-   "deficit": 654,
+   "deficit": 555,
    "cible": 2100
   }
  ],
@@ -1906,6 +1906,13 @@ window.DATA = {
     "qte": "1",
     "kcal": 78,
     "prot": 6.5
+   },
+   {
+    "repas": "Collation",
+    "aliment": "Barre Nesquik (avant le vélo)",
+    "qte": "1",
+    "kcal": 99,
+    "prot": 1.5
    },
    {
     "repas": "Soir",
