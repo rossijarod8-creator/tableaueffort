@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "23/11/2026 18:36",
+ "maj": "23/11/2026 20:01",
  "profil": {
   "nom": "Jarod",
   "ftp": 232,
@@ -190,14 +190,14 @@ window.DATA = {
   },
   {
    "date": "2026-11-23",
-   "type": "Normal",
+   "type": "Actif",
    "mange": 1695,
    "prot": 115.5,
    "base": 2250,
-   "sport": 0,
-   "depense": 2250,
-   "deficit": 555,
-   "cible": 2100
+   "sport": 561,
+   "depense": 2811,
+   "deficit": 1116,
+   "cible": 2350
   }
  ],
  "repas": {
@@ -2067,6 +2067,20 @@ window.DATA = {
     "3e meilleure puissance sur 15 min",
     "Record 5 min (90 j)"
    ]
+  },
+  {
+   "date": "2026-11-23",
+   "titre": "Bikes France Monday Workout (E)",
+   "type": "endurance",
+   "km": 28.2,
+   "duree": "1:02:12",
+   "watts": 158,
+   "vitesse": 27.2,
+   "denivele": 234,
+   "kcal": 561,
+   "zone": 2,
+   "note": "Séance de groupe · FC moyenne 122, max 173 · puissance max 729 W",
+   "records": []
   }
  ],
  "recettes": [
