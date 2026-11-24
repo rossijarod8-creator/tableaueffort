@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "23/11/2026 21:02",
+ "maj": "24/11/2026 18:49",
  "profil": {
   "nom": "Jarod",
   "ftp": 232,
@@ -198,6 +198,17 @@ window.DATA = {
    "depense": 2811,
    "deficit": 661,
    "cible": 2350
+  },
+  {
+   "date": "2026-11-24",
+   "type": "Normal",
+   "mange": 820,
+   "prot": 81,
+   "base": 2250,
+   "sport": 0,
+   "depense": 2250,
+   "deficit": 1430,
+   "cible": 2100
   }
  ],
  "repas": {
@@ -1969,6 +1980,50 @@ window.DATA = {
     "qte": "100 g",
     "kcal": 60,
     "prot": 11
+   }
+  ],
+  "2026-11-24": [
+   {
+    "repas": "Matin",
+    "aliment": "Skyr nature",
+    "qte": "100 g",
+    "kcal": 60,
+    "prot": 11
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Gnocchi",
+    "qte": "185 g",
+    "kcal": 298,
+    "prot": 9.3
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Poulet (cru)",
+    "qte": "200 g",
+    "kcal": 227,
+    "prot": 43.6
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Passata",
+    "qte": "150 g",
+    "kcal": 38,
+    "prot": 2.7
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Poivrons rouges",
+    "qte": "150 g",
+    "kcal": 42,
+    "prot": 1.4
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Œufs",
+    "qte": "2",
+    "kcal": 155,
+    "prot": 13
    }
   ]
  },
