@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "25/11/2026 17:56",
+ "maj": "25/11/2026 20:34",
  "profil": {
   "nom": "Jarod",
   "ftp": 232,
@@ -212,14 +212,14 @@ window.DATA = {
   },
   {
    "date": "2026-11-25",
-   "type": "Normal",
+   "type": "Actif",
    "mange": 650,
    "prot": 19.5,
    "base": 2250,
-   "sport": 0,
-   "depense": 2250,
-   "deficit": 1600,
-   "cible": 2100
+   "sport": 569,
+   "depense": 2819,
+   "deficit": 2169,
+   "cible": 2350
   }
  ],
  "repas": {
@@ -2183,6 +2183,20 @@ window.DATA = {
    "kcal": 561,
    "zone": 2,
    "note": "Séance de groupe · FC moyenne 122, max 173 · puissance max 729 W",
+   "records": []
+  },
+  {
+   "date": "2026-11-25",
+   "titre": "Bikes France Wednesday WorkOut (E)",
+   "type": "endurance",
+   "km": 28.0,
+   "duree": "1:00:53",
+   "watts": 162,
+   "vitesse": 27.6,
+   "denivele": 296,
+   "kcal": 569,
+   "zone": 2,
+   "note": "Séance de groupe · FC moyenne 113, max 150 · puissance max 517 W",
    "records": []
   }
  ],
