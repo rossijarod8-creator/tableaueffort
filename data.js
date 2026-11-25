@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "24/11/2026 18:49",
+ "maj": "25/11/2026 17:56",
  "profil": {
   "nom": "Jarod",
   "ftp": 232,
@@ -208,6 +208,17 @@ window.DATA = {
    "sport": 0,
    "depense": 2250,
    "deficit": 1430,
+   "cible": 2100
+  },
+  {
+   "date": "2026-11-25",
+   "type": "Normal",
+   "mange": 650,
+   "prot": 19.5,
+   "base": 2250,
+   "sport": 0,
+   "depense": 2250,
+   "deficit": 1600,
    "cible": 2100
   }
  ],
@@ -2024,6 +2035,22 @@ window.DATA = {
     "qte": "2",
     "kcal": 155,
     "prot": 13
+   }
+  ],
+  "2026-11-25": [
+   {
+    "repas": "Midi",
+    "aliment": "Sandwich rosette cornichons (boulangerie)",
+    "qte": "1",
+    "kcal": 480,
+    "prot": 16
+   },
+   {
+    "repas": "Midi",
+    "aliment": "Mousse au chocolat",
+    "qte": "1 pot",
+    "kcal": 170,
+    "prot": 3.5
    }
   ]
  },
