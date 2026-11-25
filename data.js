@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "25/11/2026 20:34",
+ "maj": "25/11/2026 20:36",
  "profil": {
   "nom": "Jarod",
   "ftp": 232,
@@ -213,12 +213,12 @@ window.DATA = {
   {
    "date": "2026-11-25",
    "type": "Actif",
-   "mange": 650,
-   "prot": 19.5,
+   "mange": 1480,
+   "prot": 79.6,
    "base": 2250,
    "sport": 569,
    "depense": 2819,
-   "deficit": 2169,
+   "deficit": 1339,
    "cible": 2350
   }
  ],
@@ -2051,6 +2051,48 @@ window.DATA = {
     "qte": "1 pot",
     "kcal": 170,
     "prot": 3.5
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Riz (cru)",
+    "qte": "100 g",
+    "kcal": 350,
+    "prot": 7.5
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Poulet (cru)",
+    "qte": "200 g",
+    "kcal": 227,
+    "prot": 43.6
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Poivrons",
+    "qte": "200 g",
+    "kcal": 56,
+    "prot": 1.9
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Fond de veau",
+    "qte": "10 g",
+    "kcal": 20,
+    "prot": 0.7
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Quignon de pain",
+    "qte": "~50 g",
+    "kcal": 140,
+    "prot": 4.5
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Roquefort",
+    "qte": "10 g",
+    "kcal": 37,
+    "prot": 1.9
    }
   ]
  },
