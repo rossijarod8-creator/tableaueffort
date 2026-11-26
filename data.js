@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "26/11/2026 18:21",
+ "maj": "26/11/2026 22:17",
  "profil": {
   "nom": "Jarod",
   "ftp": 232,
@@ -224,12 +224,12 @@ window.DATA = {
   {
    "date": "2026-11-26",
    "type": "Normal",
-   "mange": 960,
-   "prot": 47,
+   "mange": 1874,
+   "prot": 132,
    "base": 2250,
    "sport": 0,
    "depense": 2250,
-   "deficit": 1290,
+   "deficit": 376,
    "cible": 2100
   }
  ],
@@ -2148,6 +2148,62 @@ window.DATA = {
     "qte": "3/4 de pizza",
     "kcal": 900,
     "prot": 36
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Spätzle frais",
+    "qte": "200 g",
+    "kcal": 338,
+    "prot": 14.6
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Poulet (cru)",
+    "qte": "200 g",
+    "kcal": 227,
+    "prot": 43.6
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Poivrons",
+    "qte": "150 g",
+    "kcal": 42,
+    "prot": 1.4
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Emmental râpé",
+    "qte": "30 g",
+    "kcal": 115,
+    "prot": 8.5
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Skyr nature (dans la sauce)",
+    "qte": "50 g",
+    "kcal": 30,
+    "prot": 5.5
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Oignon",
+    "qte": "~30 g",
+    "kcal": 12,
+    "prot": 0.4
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Huile d'olive",
+    "qte": "1 c. à soupe",
+    "kcal": 90,
+    "prot": 0
+   },
+   {
+    "repas": "Soir",
+    "aliment": "Skyr nature (dessert)",
+    "qte": "100 g",
+    "kcal": 60,
+    "prot": 11
    }
   ]
  },
