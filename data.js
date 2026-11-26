@@ -224,12 +224,12 @@ window.DATA = {
   {
    "date": "2026-11-26",
    "type": "Normal",
-   "mange": 1874,
-   "prot": 132,
+   "mange": 2100,
+   "prot": 140.9,
    "base": 2250,
    "sport": 0,
    "depense": 2250,
-   "deficit": 376,
+   "deficit": 150,
    "cible": 2100
   }
  ],
@@ -2148,6 +2148,20 @@ window.DATA = {
     "qte": "3/4 de pizza",
     "kcal": 900,
     "prot": 36
+   },
+   {
+    "repas": "Collation",
+    "aliment": "Liégeois",
+    "qte": "100 g",
+    "kcal": 115,
+    "prot": 3.2
+   },
+   {
+    "repas": "Collation",
+    "aliment": "Roquefort",
+    "qte": "30 g",
+    "kcal": 111,
+    "prot": 5.7
    },
    {
     "repas": "Soir",
