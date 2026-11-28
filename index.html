@@ -311,7 +311,7 @@ document.getElementById('chips').innerHTML = `
 /* Dernière activité (avec historique) */
 (function(){
   const list = [...D.seances].sort((a,b)=>a.date<b.date?-1:a.date>b.date?1:0).reverse();
-  const typeLbl = {course:'Course', seuil:'Séance au seuil', endurance:'Endurance', muscu:'Muscu', test:'Test FTP'};
+  const typeLbl = {course:'Course', seuil:'Séance au seuil', endurance:'Endurance', muscu:'Muscu', test:'Test FTP', marche:'Marche'};
   const unit = (v,u)=>`${v}<small style="font-size:14px;font-style:normal"> ${u}</small>`;
   const panel = document.getElementById('racePanel');
   function render(k){
@@ -436,7 +436,7 @@ drawChart(); addEventListener('resize', drawChart);
 (function(){
   const list = [...D.seances].reverse();
   document.getElementById('sessSub').textContent = list.length+' au total';
-  const typeLbl = {course:'Course', seuil:'Seuil', endurance:'Endurance', muscu:'Muscu', test:'Test FTP'};
+  const typeLbl = {course:'Course', seuil:'Seuil', endurance:'Endurance', muscu:'Muscu', test:'Test FTP', marche:'Marche'};
   document.getElementById('sessions').innerHTML = list.map(s=>{
     const z = s.watts? zoneOf(s.watts) : (s.zone||0);
     const col = s.type==='muscu' ? '#b48cff' : (ZC[z]||'var(--accent)');

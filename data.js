@@ -1,5 +1,5 @@
 window.DATA = {
- "maj": "26/11/2026 23:09",
+ "maj": "28/11/2026 11:56",
  "profil": {
   "nom": "Jarod",
   "ftp": 232,
@@ -2371,6 +2371,18 @@ window.DATA = {
    "kcal": 569,
    "zone": 2,
    "note": "Séance de groupe · FC moyenne 113, max 150 · puissance max 517 W",
+   "records": []
+  },
+  {
+   "date": "2026-11-28",
+   "titre": "Marche matinale",
+   "type": "marche",
+   "km": 6.22,
+   "duree": "1:32:40",
+   "vitesse": 4.0,
+   "denivele": 310,
+   "kcal": 450,
+   "note": "Saint-Amarin (Haut-Rhin) · dépense estimée, Strava n'affichait pas les kcal",
    "records": []
   }
  ],
